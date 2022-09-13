@@ -46,6 +46,12 @@
       "relation": "manyToOne",
       "target": "api::location.location",
       "inversedBy": "projects"
+    },
+    "style": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::style.style",
+      "inversedBy": "projects"
     }
   }
 }
